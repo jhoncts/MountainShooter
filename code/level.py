@@ -1,6 +1,8 @@
-from xml.dom.minidom import Entity
+
 
 from pkg_resources import non_empty_lines
+
+from code.Entity import Entity
 
 
 class Level:
@@ -10,5 +12,5 @@ class Level:
         self.game_mode = game_mode
         self.entity_list: list[Entity] = []
 
-        def run(self, ):
-            pass
+    def run(self):
+        pass
